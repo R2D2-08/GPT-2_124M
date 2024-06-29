@@ -1,4 +1,4 @@
-Disclaimer : Even though I've written the code myself this project is heavily inspired by Andrej Karpathy's work.
+Disclaimer : Even though I've written the code myself, this project is heavily inspired by Andrej Karpathy's work.
 What is in this repository ? : the GPT-2 Architecture from scratch and the model weights loaded from huggingface.
 The GPT architecture has been written in accordance with the OpenAI architecture of the same model.
 After tweaking the gptconfig() values you can load up the other gpt2 models weights from huggingface.
