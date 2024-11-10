@@ -18,8 +18,8 @@ This project implements the GPT-2 model architecture from scratch. It does load 
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/R2D2-08/GPT-2_124M.git
-   cd GPT-2_124M
+   git clone https://github.com/R2D2-08/GPT2.git
+   cd GPT2
 ### References
 - Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł., & Polosukhin, I. (2017). [Attention Is All You Need](https://arxiv.org/abs/1706.03762). *Advances in Neural Information Processing Systems*, 30, 5998-6008.
 - Andrej Karpathy's guide on the implementation [Let's Build GPT-2 from scratch](https://www.youtube.com/watch?v=l8pRSuU81PU)
