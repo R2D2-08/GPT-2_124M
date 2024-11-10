@@ -6,6 +6,8 @@ This repository contains an implementation of the **GPT-2** architecture, built 
 
 This project implements the GPT-2 model architecture from scratch. It does load pre-trained weights from Huggingface, making it easy to experiment with various GPT-2 configurations. Replication of the structure and design of GPT-2 while allowing for customizable configurations was the goal.
 
+![The Transformer](https://miro.medium.com/v2/resize:fit:828/format:webp/1*-PfAJFusB-BNWu4-aDcpXA.png)
+
 ### Key Features
 - **GPT-2 Architecture**: Recreated in detail based on the OpenAI GPT-2 model specifications and the research paper **Attention is all you need**.
 - **Pre-trained Weight Loading**: Supports loading model weights from Hugging Face. By adjusting the `GPTConfig` values, you can load weights for different versions of GPT-2
