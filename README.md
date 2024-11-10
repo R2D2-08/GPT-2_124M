@@ -1,6 +1,25 @@
-Disclaimer : Even though I've written the code myself, this project is heavily inspired by Andrej Karpathy's work.
-What is in this repository ? : the GPT-2 Architecture from scratch and the model weights loaded from huggingface.
-The GPT architecture has been written in accordance with the OpenAI architecture of the same model.
-After tweaking the gptconfig() values you can load up the other gpt2 model's weights from huggingface.
-I haven't written code to store the weights locally, but I'm pretty sure that that is easy to do.
-The purpose of this repository was to use a mix of RLHF and a bit of intuitive code to train the model to act in a certain way but due to unforseen circumstances, it couldn't be completed.
+# GPT-2 from Scratch
+
+This repository contains an implementation of the **GPT-2** architecture, built from the ground up with inspiration from **Andrej Karpathy's work**. Although the code is my own, it closely follows the architecture details outlined and implemented by Andrej Karpathy for the original GPT-2 model. 
+
+## About This Project
+
+This project implements the GPT-2 model architecture from scratch. It does load pre-trained weights from Huggingface, making it easy to experiment with various GPT-2 configurations. Replication of the structure and design of GPT-2 while allowing for customizable configurations was the goal.
+
+### Key Features
+- **GPT-2 Architecture**: Recreated in detail based on the OpenAI GPT-2 model specifications and the research paper **Attention is all you need**.
+- **Pre-trained Weight Loading**: Supports loading model weights from Hugging Face. By adjusting the `GPTConfig` values, you can load weights for different versions of GPT-2
+
+### Prerequisites
+- Python (version >= 3.6)
+- PyTorch
+- Transformers
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/gpt2-from-scratch.git
+   cd gpt2-from-scratch
+### References
+- Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł., & Polosukhin, I. (2017). [Attention Is All You Need](https://arxiv.org/abs/1706.03762). *Advances in Neural Information Processing Systems*, 30, 5998-6008.
+- Andrej Karpathy's guide on the implementation [Let's Build GPT-2 from scratch](https://www.youtube.com/watch?v=l8pRSuU81PU)
